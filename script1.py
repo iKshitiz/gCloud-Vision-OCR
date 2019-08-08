@@ -2,7 +2,7 @@ import re
 from vision import fetchText
 import json
 
-string = fetchText('report1.jpg')
+string = fetchText('image/report1.jpg')
 
 res = {}
 
@@ -18,5 +18,5 @@ res['Lab No'] =  ' '.join((re.search('\d+\sLab', string).group()).split(' ')[0])
 
 print(res)
 
-with open('result.json', 'w') as fp:
+with open('json result/result1.json', 'w') as fp:
     json.dump(res, fp)
