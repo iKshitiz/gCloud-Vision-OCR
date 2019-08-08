@@ -1,6 +1,4 @@
-# Project Title
-
-optical character recognition 
+# Optical character recognition 
 
 ### Dependencies
 
