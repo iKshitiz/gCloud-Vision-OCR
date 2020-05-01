@@ -3,7 +3,7 @@
 ### Dependencies
 
 * Python 3.5+
-* gcloud  ``` pip install google-cloud ```
+* gcloud  
 * re
 * json
 
@@ -12,8 +12,10 @@
 * set key google cloud environment variables
 * Install Required modules
 * Run program
+
+
 ```
-python reportx.py
+python main.py
 ```
 
 
