@@ -10,7 +10,7 @@
 ### Executing program
 
 * set key google cloud environment variables
-* Install Required modules
+* Install Required modules ```sh pip install requirements.txt ```
 * Run program
 
 
